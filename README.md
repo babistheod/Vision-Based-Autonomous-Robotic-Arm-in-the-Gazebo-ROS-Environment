@@ -23,3 +23,4 @@ Build the directory before running, please build the workspace to auto-generate 
 
    rosrun smach_viewer smach_viewer.py
 
+https://github.com/babistheod/Vision-Based-Autonomous-Robotic-Arm-in-the-Gazebo-ROS-Environment/assets/43300104/ee505906-bb50-480e-a726-34b48ac22f2b
