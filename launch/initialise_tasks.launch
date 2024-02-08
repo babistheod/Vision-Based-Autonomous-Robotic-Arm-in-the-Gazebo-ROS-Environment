@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="state_machine"  pkg="ur5_pick_place_gazebo"   type="state_machine.py"   output="screen"/>
+    <!-- <node name="smach_viewer"   pkg="smach_viewer"            type="smach_viewer.py"    output="screen"/> -->
+
+</launch>

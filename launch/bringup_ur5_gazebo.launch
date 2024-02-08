@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="limited" default="false"/>
+  <arg name="sim" default="true"/>
+  <arg name="config" default="true"/>
+  
+
+  <include file="$(find ur_gazebo)/launch/ur5.launch">
+    <arg name="limited" value="$(arg limited)"/>
+  </include>
+
+
+  <include file="$(find ur5_moveit_config)/launch/ur5_moveit_planning_execution.launch">
+    <arg name="limited" value="$(arg limited)"/>
+    <arg name="sim" value="$(arg sim)"/>
+  </include>
+
+
+  <include file="$(find ur5_moveit_config)/launch/moveit_rviz.launch">
+    <arg name="config" value="$(arg config)"/>
+  </include>
+
+</launch>

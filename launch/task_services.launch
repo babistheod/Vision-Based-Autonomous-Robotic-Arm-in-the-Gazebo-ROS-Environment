@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node name="robot_commander"                    pkg="ur5_pick_place_gazebo"   type="robot_commander.py"                     output="screen" />
+    <node name="scene_1_publish_latest_aruco"       pkg="ur5_pick_place_gazebo"   type="scene_1_publish_latest_aruco.py"        output="screen" />
+    <node name="scene_1_spawn_camera_and_workbench" pkg="ur5_pick_place_gazebo"   type="scene_1_spawn_camera_and_workbench.py"  output="screen" />
+    <node name="scene_1_stack_builder"              pkg="ur5_pick_place_gazebo"   type="scene_1_stack_builder.py"               output="screen" />
+    <node name="scene_2_object_pose_estimator"      pkg="ur5_pick_place_gazebo"   type="scene_2_object_pose_estimator.py"       output="screen" />
+    <node name="scene_2_spawn_workbench_and_objs"   pkg="ur5_pick_place_gazebo"   type="scene_2_spawn_workbench_and_objs.py"    output="screen" />
+
+</launch>

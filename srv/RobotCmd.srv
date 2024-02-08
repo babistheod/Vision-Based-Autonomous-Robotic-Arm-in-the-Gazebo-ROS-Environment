@@ -1,0 +1,18 @@
+uint8 cmd
+geometry_msgs/Pose reqPose
+---
+uint8 status
+
+# enum cmd
+#   ALIGN
+#   PICK
+#   PLACE
+#   HOME
+#   
+
+# enum status
+#   ALIGNED
+#   PICKED
+#   PLACED
+#   AT_HOME
+#   FAILED
